@@ -1,0 +1,153 @@
+body {margin:0;font-size: 17px;margin-bottom:50px;}
+
+.topsection {height:100%;} /* have div cover the whole remaining view area without scrolling down  like a single page */
+/*.pageSynopsis p {color: white;font-size:30px;text-align:center;font-weight:bold; text-decoration:underline;font-style:italic;}*/
+
+.pageSynopsis {
+    background-image: url("../images/programmer.jpg"); height: 550px; display: flex;}
+
+.theme {
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    font-family: cursive;
+}
+/*.pageSynopsis td {border: 2px solid white;}
+
+.theme {background-color:pink;}*/
+
+.theme h2 {
+    color: white;
+}
+
+.page img {display: block; margin-left: auto; margin-right: auto; width: 30%;}
+.notice {text-align:center;background-color:rgba(255,255,255,0.3);}
+
+.pic img{border: 3px solid white; border-radius: 4px; padding: 5px; width: 150px;}
+
+.pic { margin: -100px 40px -100px;}
+
+.pic img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.mytitle {background-color:black; height:50px;padding:5px;} /*border-style:ridge;border-width:5px;}*/
+/*.mytitle p {padding:17px;}*/
+.mytitle table {border:none;color:white;width:100%;text-align:center;height:80%;border-collapse:collapse;}
+.mytitle i {color:brown;}
+.sns {width:30px;}
+.sns i {color:white;}
+
+.current { color: white; font-weight:bold;}
+.myresume {float:right;}
+
+.stuID {text-align:center;}
+
+#resume {background-color:rgba(255,255,255,0.5)}
+#resume form {width:80%;margin-left:auto;margin-right:auto;}
+
+.circleList {list-style-type:circle;}
+
+.CVtables {border:2px solid gray;width:100%;}
+.CVtables td {border: 2px solid white;}
+
+.footer {height: 50px;position:fixed;left:0;bottom:0;width:100%;background-color: black;color:red;text-align:center;}
+/*.myfooterUf {width:100%;background-color:black;color:red;text-align:center;}*/
+.footer p {padding:2px;}
+.footer i {color:white;}
+
+a:hover i { color: blue;}
+
+
+/* For image thumbnail pop up  on home page*/
+
+.modal-window {
+			  position: fixed;
+			  background-color: rgba(200, 200, 200, 0.75);
+			  top: 0;
+			  right: 0;
+			  bottom: 0;
+			  left: 0;
+              height: 100%;
+			  z-index: 999;
+			  opacity: 0;
+			  pointer-events: none;
+			  -webkit-transition: all 0.3s;
+			  -moz-transition: all 0.3s;
+			  transition: all 0.3s;
+			}
+
+			.modal-window:target {
+			  opacity: 1;
+			  pointer-events: auto;
+			}
+
+    .modal-window > div {
+        width: 60%;
+        position: relative;
+        margin: 2px auto;
+        max-height:100%;
+        overflow-y:auto; 
+    }
+
+			.modal-window header {
+			  font-weight: bold;
+			}
+
+			.modal-close {
+			  color: #aaa;
+			  line-height: 50px;
+			  position: absolute;
+			  right: 22%;
+			  text-align: center;
+			  top: 0;
+			  width: 70px;
+			  text-decoration: none;
+			}
+
+			.modal-close:hover {
+			  color: #000;
+			}
+
+			.modal-window img {
+				width:60%;
+				overflow-y:auto;
+                margin-left: 20%;
+			}
+
+/* Quote - Home page */
+.Myquote {
+    width: 320px;
+    position:absolute;
+    top: 350px;
+    right: 230px;
+    border: 5px dotted;
+    background-color: darkcyan;
+    padding: 20px;
+    color: wheat;
+    border-radius: 8px;
+    cursor:pointer;
+}
+
+    .Myquote a {
+        color: wheat !important;
+    }
+
+ a {
+     color:lightblue;
+ }
+
+ /*------- Resume Page ---------*/
+ .resume {
+
+     margin:auto;
+     width:60%;
+     background-color: rgba(255,255,255,0.2);d
+ }
+
+.myresumebg {
+    display:flex;
+    background-image: url(../images/bg.jpg);
+    padding-bottom:20px;
+}

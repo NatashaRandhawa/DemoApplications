@@ -1,0 +1,61 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="PersonalWebsite.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+
+    <!-- Font Awesome Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="css/girl.css">
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+
+            <!-- Nav bar -->
+
+            <div class="topsection">
+			    <!--Title/Navbar -->
+			    <div class="mytitle">
+				
+				    <table> <!-- change to nav bar  -->	
+					    <tr>
+						    <td><i class="fa fa-home" aria-hidden="true"></i> <asp:HyperLink runat="server" ID="home_nav" NavigateUrl="Default.aspx" Text="Home" /></td>
+						    <td><i class="fa fa-sticky-note" aria-hidden="true"></i> <asp:HyperLink runat="server" ID="resume_nav" NavigateUrl="Resume.aspx" Text="Resume" /></td>
+						    <td><i class="fa fa-picture-o" aria-hidden="true"></i> <asp:HyperLink runat="server" ID="gallery_nav" NavigateUrl="Gallery.aspx" Text="Gallery" /></td>
+						    <td><i class="fa fa-code-fork" aria-hidden="true"></i> <asp:HyperLink runat="server" ID="projects_nav" NavigateUrl="Projects.aspx" Text="Projects" /></td>
+						    <td class="sns"><a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></td>
+						    <td class="sns"><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></td>
+						    <td class="sns"><a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></td>
+						    <td class="sns"><a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></td>
+					    </tr>
+				    </table>	
+			    </div>
+            </div>
+
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+
+            <!-- Footer -->
+            <div class="footer">
+				
+					<p><u>Contact me</u> :  
+					<a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+					<a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+					<a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+					<a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+					</p>
+				
+			</div>
+
+        </div>
+    </form>
+</body>
+</html>
