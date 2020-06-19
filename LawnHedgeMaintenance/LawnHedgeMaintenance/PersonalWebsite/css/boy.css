@@ -1,0 +1,27 @@
+body {background-image:url('../images/bg2.jpg');margin:5px;font-size:17px;}
+
+.pageSynopsis p {font-size:30px;text-align:center;font-weight:bold; text-decoration:underline;font-style:italic;}
+
+.pageSynopsis table {margin-left:auto;margin-right:auto;border:2px solid white;width:50%;font-size:20px;font-family:cursive;}
+
+.theme {background-color:lightblue;}
+
+tr,td {border: 2px solid white;}
+.pic {content:url("../images/boy.jpg");border: 1px solid #ddd; border-radius: 4px; padding: 5px; width: 150px;}
+
+.mytitle {background-color:black;height:80px;font-size:30px;color:red;font-weight:bold;border-style:ridge;border-width:5px;padding:5px;}
+/*.mytitle p {padding:17px;}*/
+
+.sns {float:right;color:white;}
+
+.stuID {text-align:center;}
+
+.circleList {list-style-type:square;}
+
+.CVtables {border:2px solid gray;width:100%;}
+
+.myfooter {height:50px;background-color:black;color:red;text-align:center;font-size:20px}
+.myfooter p {padding:12px;}
+.myfooter i {color:white;}
+
+a:hover i { color: blue;}

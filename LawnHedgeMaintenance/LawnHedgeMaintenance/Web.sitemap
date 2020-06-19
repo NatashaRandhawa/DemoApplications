@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="Default.aspx" title="HOME"  description="Default Page">
+    
+    <siteMapNode url="Services.aspx" title="SERVICES"  description="Services Offered">
+      
+        <siteMapNode url="" title="Lawn Mowing"  description="Service 1" />
+        <siteMapNode url="" title="Rubbish Removal"  description="Service 2" />
+        <siteMapNode url="" title="Wood Chipper"  description="Service 3" />
+        <siteMapNode url="" title="Tree Trimming"  description="Service 4" />
+        <siteMapNode url="" title="Tree Hedge Edging"  description="Service 5" />
+        <siteMapNode url="" title="Trimming and Shaping"  description="Service 6" />
+      
+    </siteMapNode>
+    
+    <siteMapNode url="Speciality.aspx" title="SPECIALITY"  description="Business Speciality" />
+    <siteMapNode url="About.aspx" title="ABOUT"  description="About Business" />
+    <siteMapNode url="Contact.aspx" title="CONTACT"  description="Contact Info" />
+    
+  </siteMapNode>
+  
+</siteMap>

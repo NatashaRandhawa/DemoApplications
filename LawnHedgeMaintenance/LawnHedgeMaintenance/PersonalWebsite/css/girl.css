@@ -1,0 +1,101 @@
+body {background-image:url('../images/bg.jpg');margin:0;font-size:17px;}
+
+.topsection {height:100%;background-color:rgba(0,0,0,0.5)} /* have div cover the whole remaining view area without scrolling down  like a single page */
+/*.pageSynopsis p {color: white;font-size:30px;text-align:center;font-weight:bold; text-decoration:underline;font-style:italic;}*/
+
+.pageSynopsis table {margin-top:10%;margin-left:auto;margin-right:auto;width:30%;font-size:40px;font-family:cursive;}
+/*.pageSynopsis td {border: 2px solid white;}
+
+.theme {background-color:pink;}*/
+
+.page img {display: block; margin-left: auto; margin-right: auto; width: 30%;}
+.notice {text-align:center;font-size:30px;background-color:rgba(255,255,255,0.3);}
+
+.pic {content:url("../images/girl.jpg");border: 1px solid #ddd; border-radius: 4px; padding: 5px; width: 150px;}
+
+.pic img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.mytitle {background-color:black;height:50px;font-size:30px;font-weight:bold;padding:5px;} /*border-style:ridge;border-width:5px;}*/
+/*.mytitle p {padding:17px;}*/
+.mytitle table {border:none;color:white;width:100%;text-align:center;height:80%;border-collapse:collapse;}
+.mytitle i {color:brown;}
+.sns {width:30px;}
+.sns i {color:white;}
+
+.current a {color:white;text-decoration:none;}
+.myresume {float:right;font-size:15px}
+
+.stuID {text-align:center;}
+
+#resume {background-color:rgba(255,255,255,0.5)}
+#resume form {width:80%;margin-left:auto;margin-right:auto;font-size:20px;}
+
+.circleList {list-style-type:circle;}
+
+.CVtables {border:2px solid gray;width:100%; font-size:20px;}
+.CVtables td {border: 2px solid white;}
+
+.myfooter {position:fixed;left:0;bottom:0;width:100%;background-color:black;color:red;text-align:center;font-size:20px}
+.myfooterUf {width:100%;background-color:black;color:red;text-align:center;font-size:20px}
+.footer p {padding:2px;}
+.footer i {color:white;}
+
+a:hover i { color: blue;}
+
+
+/* For image thumbnail pop up  on home page*/
+
+.modal-window {
+			  position: fixed;
+			  background-color: rgba(200, 200, 200, 0.75);
+			  top: 0;
+			  right: 0;
+			  bottom: 0;
+			  left: 0;
+			  z-index: 999;
+			  opacity: 0;
+			  pointer-events: none;
+			  -webkit-transition: all 0.3s;
+			  -moz-transition: all 0.3s;
+			  transition: all 0.3s;
+			}
+
+			.modal-window:target {
+			  opacity: 1;
+			  pointer-events: auto;
+			}
+
+			.modal-window>div {
+			  width: 60%;
+			  position: relative;
+			  margin: 0 auto;
+			  max-height:100%;
+			  overflow-y:auto;
+			}
+
+			.modal-window header {
+			  font-weight: bold;
+			}
+
+			.modal-close {
+			  color: #aaa;
+			  line-height: 50px;
+			  font-size: 80%;
+			  position: absolute;
+			  right: 0;
+			  text-align: center;
+			  top: 0;
+			  width: 70px;
+			  text-decoration: none;
+			}
+
+			.modal-close:hover {
+			  color: #000;
+			}
+
+			.modal-window img {
+				width:100%;
+				overflow-y:auto;
+			}
